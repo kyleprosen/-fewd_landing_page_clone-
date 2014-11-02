@@ -1,4 +1,6 @@
-html, body, div, span, applet, object, iframe,
+html {
+	-webkit-font-smoothing: antialiased
+}
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -42,21 +44,29 @@ table {
 	border-spacing: 0;
 }
 
-body{
+body {
 	background-color: LightGray;
 }
-div{
+div {
 	border: 1px solid Chocolate;
 }
-.top-nav{
+.top-nav {
 background-color: #fff;
 }
-.top_nav < .content{
+.top_nav < .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
 	display: inline-block;
 }
+.active {
+	color: #4c5058;
+    font-weight: 600;
+}
+.active:hover{
+	font-weight: 900;
+}
+
 ul {
 	float: right;
 	margin-right: 242px;
@@ -70,4 +80,9 @@ li {
 	color: #838994; 
 	letter-spacing: 0.03em;
 	margin-left: 25px;
+}
+li:hover{
+	color: #585858;
+	font-weight: bolder;
+	cursor: pointer;
 }
