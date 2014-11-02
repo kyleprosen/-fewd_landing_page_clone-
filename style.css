@@ -49,5 +49,16 @@ div{
 	border: 1px solid Chocolate;
 }
 .top-nav{
-
+background-color: #fff;
 }
+.top_nav < .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.top_nav < .five_list{
+	float: right;
+	margin-right: 242px;
+	display: inline-block;
+	}
