@@ -30,6 +30,7 @@ body {
 }
 .content {
     padding: 0 15px;
+    margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -59,7 +60,6 @@ background-color: #fff;
 .top_nav < .content {
 	width: 970px;
 	height: 70px;
-	margin: 0 auto;
 	display: inline-block;
 }
 .active {
@@ -98,6 +98,26 @@ li:hover{
 	height: 45.938rem;
 	overflow: auto;
 }
+.contents{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	margin-top:225px;
+}
 h1{
 	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+h3{
+	font-size: 1.9em;
+}
+.button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
 }
