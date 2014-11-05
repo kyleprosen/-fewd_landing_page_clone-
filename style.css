@@ -121,3 +121,8 @@ h3{
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
+a img{
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+}
