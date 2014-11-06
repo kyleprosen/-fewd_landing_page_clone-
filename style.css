@@ -145,3 +145,8 @@ a img {
     box-sizing: border-box;
     height: 4em;
 }
+
+.icons {
+	text-align: center;
+	display: inline-block;
+}
