@@ -99,20 +99,23 @@ li:hover{
 	overflow: auto;
 }
 .contents{
+	font-family: "Open-sans", Open-sans, sans-serif;
 	color: white;
 	text-align: center;
 	font-weight: 300;
 	margin-top:225px;
 }
-h1{
+h1 {
 	color: white;
 	text-align: center;
 	font-size: 3em;
+	font-family: "Gentium Book Basic", Georgia, serif;
 }
-h3{
+h3 {
 	font-size: 1.9em;
+	font-family: "Gentium Book Basic", Georgia, serif;
 }
-.button{
+.button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -121,8 +124,22 @@ h3{
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
-a img{
+
+a img {
 	width: 30px;
 	height: 30px;
 	background-color: blue;
+}
+
+.cases {
+	font-size: 2em;
+}
+
+.cases .devices{
+	box-sizing: border-box;
+	width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    height: 4em;
 }
