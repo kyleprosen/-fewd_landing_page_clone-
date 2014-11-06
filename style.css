@@ -56,6 +56,9 @@ div {
 }
 .top-nav {
 background-color: #fff;
+position: fixed;
+width: 100%;
+z-index: 9999;
 }
 .top_nav < .content {
 	width: 970px;
@@ -134,12 +137,11 @@ a img {
 .cases {
 	font-size: 2em;
 }
-
-.cases .devices{
-	box-sizing: border-box;
+.cases ul{
 	width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
     border: 1px solid black;
+    box-sizing: border-box;
     height: 4em;
 }
